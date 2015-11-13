@@ -20,4 +20,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  hello: "Hello world from Config Locales en.yml"
+  
+  main_mailer:
+    notify_question_author:
+    subject:"New answer to your question"

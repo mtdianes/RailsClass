@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
-      @question = Question.order(created_at: :desc).all
+      @questions = Question.order(created_at: :desc).all
   end
   
   def about
@@ -9,4 +9,5 @@ class HomeController < ApplicationController
   def temp
       redirect_to root_path
   end
+  
 end
